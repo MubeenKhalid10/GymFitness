@@ -50,7 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
         popularWorkouts: popularWorkouts,
       ),
       ExerciseScreen(),
-      AnalysisScreen(),
+      const AnalysisScreen(),
       const ProfileScreen(),
     ];
 
@@ -138,7 +138,7 @@ class HomeContentScreen extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (_) => NotificationsScreen()),
+                              builder: (_) => const NotificationsScreen()),
                         );
                       },
                     ),

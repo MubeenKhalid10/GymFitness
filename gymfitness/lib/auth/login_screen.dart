@@ -33,7 +33,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
         // ✅ Use `pushAndRemoveUntil` to clear stack
         Navigator.of(context).pushAndRemoveUntil(
-          MaterialPageRoute(builder: (_) => HomeScreen()),
+          MaterialPageRoute(builder: (_) => const HomeScreen()),
           (route) => false,
         );
       } else {
